@@ -1,80 +1,82 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Link } from "react-router-dom"
+import InfoContext from "../utils/InfoContext"
+import PDF from "../utils/MostafaAlshammaryResume.pdf"
+import "./Style.css"
 
+// TO BE USED IN THE HOME PAGE
 function BioCard() {
-  return (
-    <div id="bio-card" class="card">
-      {/* Heading */}
-      <div class="row mt-3 justify-content-center">
-        <div class="col text-center">
-          <h3>Hello, I'm Mostafa Alshammary.</h3>
-          <h3>I'm a future full stack web developer.</h3>
-        </div>
+  const info = useContext(InfoContext);
 
-        <div class="row mt-3 mx-4">
-          <div class="text-center col-md-6">
+  return (
+    <div id="bio-card" className="card">
+      {/* Heading */}
+      <div className="row mt-3 justify-content-center">
+        {/* Image + Bio row */}
+        <div className="row mt-3 mx-4">
+          {/* Image column */}
+          <div className="text-center col-md-6">
             <img
               id="profile-pic"
               src="https://i.ibb.co/g4xNt53/IMG-4431.jpg"
               alt="Profile Picture"
-              class="card-img"
+              className="card-img"
             />
             <br />
             <br />
             <br />
           </div>
-
-          {/* Bio Column */}
-          <div id="bio" class="align-self-center text-center col-md-6">
-            <p>
-              I first became interested in coding when I was in college. A
-              couple of the pre-requesites I had to take for my Mechanical
-              Engineering degree were introduction to programming courses. After
-              successfully completing those courses, I wanted more!
-            </p>
-            <p>
-              {" "}
-              I have been enjoying the University of Arizona Coding BootCamp and
-              looking forward to working in the field of web development and the
-              tech industry.
-            </p>
+          {/* Bio column*/}
+          <div id="bio" className="align-self-center text-center col-md-6">
+            <h3>Hello, I'm Mostafa Alshammary.</h3>
+            <h3>I'm a full stack web developer.</h3>
+            <br />
+            <p>{info.bio1}</p>
+            <p> {info.bio2}</p>
           </div>
         </div>
       </div>
+      
+      {/* Work and resume  */}
+      <div className="row justify-content-center">
+        <div className="alert border-0" role="alert">
 
-      {/* Social-media / Contact */}
-      <div class="row justify-content-center">
-        <a
-          href="https://github.com/Malsham3"
-          target="_blank"
-          class="fa fa-github fa-2x"
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/mostafa-alshammary-22698a1b9/"
-          target="_blank"
-          class="fa fa-linkedin fa-2x"
-        ></a>
-      </div>
-
-      {/* Work and Resume */}
-      <div class="row justify-content-center">
-        <div class="alert border-0" role="alert">
-          <a href="work.html" class="alert-link">
+          {/* directs to Github projects / work page*/}
+          <Link className="alert-link" to={`/work`}>WORK</Link>
+          {/* <a href="work.html" className="alert-link">
             WORK
-          </a>
-          ·
+          </a> */}
+
+          ·{/*  Resume */}
           <a
-            href="MostafaAlshammaryResume.pdf"
+            href= {PDF}
             target="_blank"
-            class="alert-link"
-            download
+            className="alert-link"
           >
             RESUME
           </a>
-          ·
-          <a href="contact.html" target="_blank" class="alert-link" download>
+
+          ·{/* Contact page */}
+          <a
+            href="contact.html"
+            target="_blank"
+            className="alert-link"
+          >
             CONTACT
           </a>
+          
         </div>
+      </div>
+      
+      {/* Social-Media / Contact */}
+      <div id= "social-media" className="row justify-content-center">
+        <a href={info.gitHub} target="_blank" className="fa fa-github fa-2x mr-1" />
+
+        <a
+          href={info.linkedIn}
+          target="_blank"
+          className="fa fa-linkedin fa-2x ml-1"
+        />
       </div>
     </div>
   );
