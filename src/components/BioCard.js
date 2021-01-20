@@ -15,7 +15,7 @@ function BioCard() {
         {/* Image + Bio row */}
         <div className="row mt-3 mx-4">
           {/* Image column */}
-          <div className="text-center col-md-6">
+          <div className="text-center col-md-4">
             <img
               id="profile-pic"
               src="https://i.ibb.co/g4xNt53/IMG-4431.jpg"
@@ -27,9 +27,10 @@ function BioCard() {
             <br />
           </div>
           {/* Bio column*/}
-          <div id="bio" className="align-self-center text-center col-md-6">
-            <h3>Hello, I'm Mostafa Alshammary.</h3>
-            <h3>I'm a full stack web developer.</h3>
+          <div id="bio" className="col-md-8">
+            <h3>Hello, I'm </h3>
+            <span id = "name">Mostafa Alshammary</span>
+            <h3 id= "web-dev">Full stack web developer.</h3>
             <br />
             <p>{info.bio1}</p>
             <p> {info.bio2}</p>

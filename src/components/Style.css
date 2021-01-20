@@ -1,64 +1,78 @@
-h3{
-    font-family: trebuchet MS, sans-serif;
-    margin-top: 10px;
-
+h3 {
+  font-family: trebuchet MS, sans-serif;
+  margin-top: 10px;
+  /* font-size: 24px; */
 }
 #bio-card {
-   background: rgba(235, 207, 116, 0.6);
-   padding-top: 20px;
-   width: 80%;
-   /* outline-style: solid;
+  background: rgb(238, 237, 233, 0.6);
+  padding-top: 20px;
+  /* width: 85%; */
+  /* outline-style: solid;
    outline-width: 3px; */
-   box-shadow: 0 0 75px black;
-   border-radius: 5px;
+  box-shadow: 0 0 50px black;
+  border-radius: 5px;
 }
 
 #bio {
-    font-family: trebuchet MS, sans-serif;
-    font-size: 19px;
-    background: rgba(235, 207, 116, 1);
-    /* outline-style: solid;
+  /* font-family: trebuchet MS, sans-serif; */
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  background: rgb(238, 237, 233, 0.8);;
+  /* outline-style: solid;
     outline-width: 1px; */
-    box-shadow: 0 0 20px black;
-    border-radius: 7px;
- }
+  box-shadow: 0 0 20px rgb(59, 59, 59);
+  border-radius: 7px;
+}
+
+#name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#web-dev {
+    font-weight: bold;
+    font-size: 30px;
+}
 
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    background: rgba(235, 207, 116, 1);
-    border-color: black;
-    box-shadow: 0 0 10px black;
-    margin-bottom: 20px;
-    border-radius: 7px;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background: rgb(238, 237, 233);
+  border-color: black;
+  box-shadow: 0 0 10px rgb(233, 230, 230);
+  margin-bottom: 20px;
+  border-radius: 7px;
 }
 
-#profile-pic{
-    max-width: 350px;
-    /* outline-style: solid;
+#profile-pic {
+  max-width: 350px;
+  /* outline-style: solid;
     outline-width: 1px; */
-    box-shadow: 0 0 20px black;
-    border-radius: 7px;
+  box-shadow: 0 0 20px rgb(49, 49, 49);
+  border-radius: 7px;
 }
 
-.alert{
-    /* outline-style: solid; */
-    background: rgba(235, 207, 116, 1);
-    box-shadow: 0 0 20px black;
-    margin-top: 40px;
-    border-radius: 7px;
+.alert {
+  /* outline-style: solid; */
+  background: rgb(238, 237, 233);
+  box-shadow: 0 0 20px rgb(233, 230, 230);
+  margin-top: 40px;
+  border-radius: 7px;
 }
 
-.fa, .alert:hover {
-    opacity: 0.9;
+.fa,
+.alert:hover {
+  opacity: 0.9;
 }
 
-.alert-link{
-    font-family: Andale Mono, monospace;
-    font-size: 17px;
-    color: black;
+.alert-link {
+  font-family: Andale Mono, monospace;
+  font-size: 17px;
+  color: black;
 }
