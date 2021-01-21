@@ -2,13 +2,13 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom"
 import InfoContext from "../utils/InfoContext"
 import PDF from "../utils/MostafaAlshammaryResume.pdf"
-// import "./Style.css"
 
 // TO BE USED IN THE HOME PAGE
 function BioCard() {
   const info = useContext(InfoContext);
 
   return (
+    <div className="container d-flex justify-content-center mt-5">
     <div id="bio-card" className="card">
       {/* Heading */}
       <div className="row mt-3 justify-content-center">
@@ -44,9 +44,6 @@ function BioCard() {
 
           {/* directs to Github projects / work page*/}
           <Link className="alert-link" to={`/work`}>WORK</Link>
-          {/* <a href="work.html" className="alert-link">
-            WORK
-          </a> */}
 
           ·{/*  Resume */}
           <a
@@ -58,13 +55,7 @@ function BioCard() {
           </a>
 
           ·{/* Contact page */}
-          <a
-            href="contact.html"
-            target="_blank"
-            className="alert-link"
-          >
-            CONTACT
-          </a>
+          <Link className="alert-link" to={`/contact`}>CONTACT</Link>
           
         </div>
       </div>
@@ -79,6 +70,7 @@ function BioCard() {
           className="fa fa-linkedin fa-2x ml-1"
         />
       </div>
+    </div>
     </div>
   );
 }

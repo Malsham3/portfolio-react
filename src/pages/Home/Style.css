@@ -1,27 +1,21 @@
 h3 {
-  font-family: trebuchet MS, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   margin-top: 10px;
-  /* font-size: 24px; */
+
 }
 #bio-card {
   background: rgb(238, 237, 233, 0.6);
   padding-top: 20px;
-  /* width: 85%; */
-  /* outline-style: solid;
-   outline-width: 3px; */
   box-shadow: 0 0 50px black;
   border-radius: 5px;
 }
 
 #bio {
-  /* font-family: trebuchet MS, sans-serif; */
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
   background: rgb(238, 237, 233, 0.8);;
-  /* outline-style: solid;
-    outline-width: 1px; */
   box-shadow: 0 0 20px rgb(59, 59, 59);
   border-radius: 7px;
 }
@@ -52,14 +46,11 @@ h3 {
 
 #profile-pic {
   max-width: 350px;
-  /* outline-style: solid;
-    outline-width: 1px; */
   box-shadow: 0 0 20px rgb(49, 49, 49);
   border-radius: 7px;
 }
 
 .alert {
-  /* outline-style: solid; */
   background: rgb(238, 237, 233);
   box-shadow: 0 0 20px rgb(233, 230, 230);
   margin-top: 40px;

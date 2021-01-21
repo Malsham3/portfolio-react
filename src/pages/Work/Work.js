@@ -1,6 +1,6 @@
 import React from 'react'
 import './Style.css'
-import WorkCard from "../../components/ContactCard"
+import WorkCard from "../../components/WorkCard"
 
 function Work() {
 
