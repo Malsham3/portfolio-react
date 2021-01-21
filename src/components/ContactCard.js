@@ -12,12 +12,6 @@ function ContactCard() {
       </Link>
     <div className="container d-flex justify-content-center align-items-center mt-5">
       <div id="contact-card" className="card">
-        {/* Go back to main page link */}
-        <div className="row mt-3 justify-content-center">
-          <div className="col">
-            {/* <Link className="alert-link" to={`/`}>Go Back</Link> */}
-          </div>
-        </div>
         {/* Heading */}
         <div className="row mt-3">
           <div className="col text-center">
