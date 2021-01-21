@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom"
 import InfoContext from "../utils/InfoContext"
 import PDF from "../utils/MostafaAlshammaryResume.pdf"
-import "./Style.css"
+// import "./Style.css"
 
 // TO BE USED IN THE HOME PAGE
 function BioCard() {

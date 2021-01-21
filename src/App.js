@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
 import { BrowserRouter, Route } from "react-router-dom";
-import Contact from "./pages/Contact";
-import Work from "./pages/Work";
-import Home from "./pages/Home";
+import Container from "./components/Container"
+import Contact from "./pages/Contact/Contact";
+import Work from "./pages/Work/Work";
+import Home from "./pages/Home/Home";
 
 
 function App() {

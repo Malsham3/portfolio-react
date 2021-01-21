@@ -1,12 +1,12 @@
 import React from 'react'
-
-import Container from '../components/Container'
+import './Style.css'
+import BioCard from "../../components/BioCard"
 
 function Home() {
 
     return (
         <div>
-            <Container/>
+            <BioCard/>
         </div>
     )
 

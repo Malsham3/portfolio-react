@@ -3,9 +3,7 @@ import BioCard from './BioCard'
 
 function Container(){
     return (
-        <div className = "container d-flex justify-content-center mt-5">
-            <BioCard />
-        </div>
+        <div className = "container d-flex justify-content-center mt-5"></div>
     )
 }
 
