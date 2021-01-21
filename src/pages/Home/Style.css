@@ -1,6 +1,7 @@
 h3 {
   font-family: 'DM Sans', sans-serif;
   margin-top: 10px;
+  color: rgb(56, 54, 54);
 
 }
 #bio-card {
@@ -15,6 +16,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
+  color: rgb(56, 54, 54);
   background: rgb(238, 237, 233, 0.8);;
   box-shadow: 0 0 20px rgb(59, 59, 59);
   border-radius: 7px;
@@ -66,4 +68,9 @@ h3 {
   font-family: Andale Mono, monospace;
   font-size: 17px;
   color: black;
+}
+
+#p-tags {
+  font-family: 'DM Sans', sans-serif;
+  color: rgb(56, 54, 54);
 }

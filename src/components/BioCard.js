@@ -32,8 +32,8 @@ function BioCard() {
             <span id = "name">Mostafa Alshammary</span>
             <h3 id= "web-dev">Full stack web developer.</h3>
             <br />
-            <p>{info.bio1}</p>
-            <p> {info.bio2}</p>
+            <p id="p-tags">{info.bio1}</p>
+            <p id = "p-tags"> {info.bio2}</p>
           </div>
         </div>
       </div>
