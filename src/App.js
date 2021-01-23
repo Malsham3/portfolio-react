@@ -1,6 +1,5 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { BrowserRouter, Route } from "react-router-dom";
-import Container from "./components/Container"
 import Contact from "./pages/Contact/Contact";
 import Work from "./pages/Work/Work";
 import Home from "./pages/Home/Home";

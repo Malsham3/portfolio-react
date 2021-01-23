@@ -7,8 +7,8 @@ h3 {
 #bio-card {
   background: rgb(238, 237, 233, 0.6);
   padding-top: 20px;
-  box-shadow: 0 0 50px rgb(56, 54, 54);
-  border-radius: 5px;
+  box-shadow: 0 0 30px rgb(56, 54, 54);
+  border-radius: 12px;
 }
 
 #bio {
@@ -17,9 +17,9 @@ h3 {
   font-weight: 400;
   font-size: 19px;
   color: rgb(56, 54, 54);
-  background: rgb(238, 237, 233, 0.8);;
-  box-shadow: 0 0 20px rgb(59, 59, 59);
-  border-radius: 7px;
+  background: rgb(238, 237, 233, 0.8);
+  box-shadow: 0 0 20px rgb(187, 180, 180);
+  border-radius: 12px;
 }
 
 #name {
@@ -40,20 +40,20 @@ h3 {
   text-decoration: none;
   color: black;
   background: rgb(238, 237, 233);
-  box-shadow: 0 0 10px rgb(233, 230, 230);
+  box-shadow: 0 0 10px rgb(187, 180, 180);
   margin-bottom: 20px;
   border-radius: 7px;
 }
 
 #profile-pic {
   max-width: 350px;
-  box-shadow: 0 0 20px rgb(49, 49, 49);
-  border-radius: 7px;
+  box-shadow: 0 0 20px rgb(187, 180, 180);
+  border-radius: 12px;
 }
 
 .alert {
   background: rgb(238, 237, 233);
-  box-shadow: 0 0 20px rgb(233, 230, 230);
+  box-shadow: 0 0 20px rgb(187, 180, 180);
   margin-top: 40px;
   border-radius: 7px;
 }

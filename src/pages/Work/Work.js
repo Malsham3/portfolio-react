@@ -1,12 +1,11 @@
 import React from 'react'
 import './Style.css'
-import WorkCard from "../../components/WorkCard"
+import WorkContainer from "../../components/WorkContainer"
 
 function Work() {
-
     return (
         <div>
-            <WorkCard />
+            <WorkContainer />
         </div>
     )
 
