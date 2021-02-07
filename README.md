@@ -18,7 +18,7 @@ The technologies used for this project are:
  ![License](https://img.shields.io/static/v1?label=License&message=MIT&color=9cf)
 
 ## Links
-- [GitHub Repository](https://github.com/Malsham3/employees-tracker-react)
+- [GitHub Repository](https://github.com/Malsham3/portfolio-react)
 - [Deployed Application](https://mostafaalshammary.netlify.app/)
 
 ## Questions / Contributions
